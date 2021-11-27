@@ -262,9 +262,9 @@ jQuery(document).ready(function($) {
                 document.getElementById('xacnhan').style.display = "none";
                 document.getElementById('dkmthangmark').innerHTML = `<div class="loading"><div class="loadingio-spinner-reload-5o9vh2r1rdn"><div class="ldio-l01qrxi7kud"><div><div></div><div></div><div></div></div></div></div></div>`;
             }).catch(function(err) {
-                console.log('loi');
-                //document.getElementById('xacnhan').style.display = "none";
-                //document.getElementById('dkmthangmark').innerHTML = `<div class="loading"><div class="loadingio-spinner-reload-5o9vh2r1rdn"><div class="ldio-l01qrxi7kud"><div><div></div><div></div><div></div></div></div></div></div>`;
+                // console.log('loi');
+                document.getElementById('xacnhan').style.display = "none";
+                document.getElementById('dkmthangmark').innerHTML = `<div class="loading"><div class="loadingio-spinner-reload-5o9vh2r1rdn"><div class="ldio-l01qrxi7kud"><div><div></div><div></div><div></div></div></div></div></div>`;
             })
         };
     }
